@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /* note: de font heb ik gekocht en gebruikt om de animatie/video te maken. verder gebruik ik geen tekst op deze site*/
+    background-image: url(./img/day.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+video {
+    width: 73vw;
+    max-height: 70vh; 
+    object-fit: cover;
+    border: 2em solid #151515;
+    background-color: #000000;
+}
